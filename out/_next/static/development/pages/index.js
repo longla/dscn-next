@@ -44,7 +44,7 @@ var Header = function Header() {
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: 'nav-item',
     href: "#thong-diep",
     __source: {
@@ -52,7 +52,7 @@ var Header = function Header() {
       lineNumber: 9
     },
     __self: this
-  }, "Thong Diep"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "Thong Diep"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: 'nav-item',
     href: "#chia-se",
     __source: {
@@ -10066,6 +10066,7 @@ var _jsxFileName = "D:\\code\\dscn-next\\pages\\chia-se.js";
 
 var ChiaSe = function ChiaSe() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    id: "chia-se",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 2
@@ -10610,6 +10611,7 @@ var _jsxFileName = "D:\\code\\dscn-next\\pages\\thong-diep.js";
 
 var ThongDiep = function ThongDiep() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    id: "thong-diep",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3

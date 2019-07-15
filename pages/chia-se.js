@@ -1,5 +1,5 @@
 const ChiaSe = ()=>(
-    <section>
+    <section id="chia-se">
         <h1>CHIA SẺ CHỨNG NGHIỆM THỰC HÀNH DƯỠNG SINH</h1>
 
         <p><em>Các bạn học viên dưỡng sinh thân mến!</em></p>

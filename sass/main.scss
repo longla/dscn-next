@@ -5,3 +5,7 @@
 //Pages
 @import "./layout";
 @import "./landing";
+
+html{
+    scroll-behavior: smooth;
+}

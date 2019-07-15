@@ -6,8 +6,8 @@ const Header = ()=>(
             <Link href="/">DSCN</Link>
         </div>
         <nav>
-        <Link className={'nav-item'} href="#thong-diep">Thong Diep</Link>
-        <Link className={'nav-item'} href="#chia-se">Chia Se</Link>
+        <a className={'nav-item'} href="#thong-diep">Thong Diep</a>
+        <a className={'nav-item'} href="#chia-se">Chia Se</a>
         </nav>
 
     </div>

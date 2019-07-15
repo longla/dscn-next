@@ -1,8 +1,11 @@
 @import "./variables";
 
 .nav-bar {
-    padding-left: $spacer-m;
-    padding-right: $spacer-m;
+  background-color: #667eea;
+  position: sticky;
+  top: 0;
+  padding-left: $spacer-m;
+  padding-right: $spacer-m;
   height: $nav_height;
   display: grid;
   align-content: center;
@@ -12,8 +15,12 @@
     justify-content: flex-end;
     align-content: center;
     a {
+      color: white;
       cursor: pointer;
       padding: $spacer-s;
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 }

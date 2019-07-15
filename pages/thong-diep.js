@@ -1,6 +1,6 @@
 
 const ThongDiep = ()=>(
-    <section>
+    <section id="thong-diep">
     <h1>TÀI LIỆU THỰC HÀNH DƯỠNG SINH</h1>
 
     <h1>(PHẦN CĂN BẢN)</h1>
