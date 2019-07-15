@@ -1,0 +1,27 @@
+{
+  "name": "dscn-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"next build",
+    "dev":"next",
+    "deploy":"next build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longla/dscn-next.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/longla/dscn-next/issues"
+  },
+  "homepage": "https://github.com/longla/dscn-next#readme",
+  "dependencies": {
+    "next": "^9.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
