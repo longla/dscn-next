@@ -1,0 +1,19 @@
+@import "./variables";
+
+.nav-bar {
+    padding-left: $spacer-m;
+    padding-right: $spacer-m;
+  height: $nav_height;
+  display: grid;
+  align-content: center;
+  grid-template-columns: 200px auto;
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    a {
+      cursor: pointer;
+      padding: $spacer-s;
+    }
+  }
+}
