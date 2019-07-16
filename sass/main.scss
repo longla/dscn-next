@@ -6,6 +6,13 @@
 @import "./layout";
 @import "./landing";
 
+//Typepo
+@import "./font";
+
 html{
     scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif !important;
 }

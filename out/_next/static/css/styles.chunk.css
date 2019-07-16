@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap&subset=vietnamese);
 *,
 *::before,
 *::after {
@@ -410,6 +411,9 @@ mark,
 
 html {
   scroll-behavior: smooth; }
+
+body {
+  font-family: 'Quicksand', sans-serif !important; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

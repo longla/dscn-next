@@ -1,9 +1,9 @@
-import Link from "next/link";
 
-const Header = ()=>(
+
+const Header = () => (
     <div className={'nav-bar'}>
         <div>
-            <Link href="/">DSCN</Link>
+            <a href="/">DSCN</a>
         </div>
         <nav>
         <a className={'nav-item'} href="#thong-diep">Thong Diep</a>
