@@ -6765,7 +6765,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "D:\\code\\dscn-next\\.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/workspace/dscn-next/.next");
       return error;
     }
   };
