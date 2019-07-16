@@ -10696,7 +10696,7 @@ var ThongDiep = function ThongDiep() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 0:
 /*!************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fthongdiep&absolutePagePath=D%3A%5Ccode%5Cdscn-next%5Cpages%5Cthongdiep.js ***!
   \************************************************************************************************************************/
@@ -10719,5 +10719,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=thongdiep.js.map

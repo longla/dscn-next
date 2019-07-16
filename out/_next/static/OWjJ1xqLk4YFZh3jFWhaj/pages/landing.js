@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{pTTa:function(n,e,t){"use strict";t.r(e);var a=t("q1tI"),i=t.n(a);e.default=function(){return i.a.createElement("section",{id:"landing"})}},xOMe:function(n,e,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/landing",function(){var n=t("pTTa");return{page:n.default||n}}])}},[["xOMe",1,0]]]);

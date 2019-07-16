@@ -10123,14 +10123,35 @@ var Landing = function Landing() {
       lineNumber: 2
     },
     __self: this
-  });
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: 'ocean',
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: 'wave',
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: 'wave',
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Landing);
 
 /***/ }),
 
-/***/ 0:
+/***/ 4:
 /*!***********************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Ccode%5Cdscn-next%5Cpages%5Cindex.js ***!
   \***********************************************************************************************************/
@@ -10153,5 +10174,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[4,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
