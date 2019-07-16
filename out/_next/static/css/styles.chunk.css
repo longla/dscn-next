@@ -412,6 +412,11 @@ mark,
   height: calc(100vh - 50px);
   background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
 
+.page-title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center; }
+
 html {
   scroll-behavior: smooth; }
 
