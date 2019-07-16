@@ -32,6 +32,7 @@ var Header = function Header() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: 'page-icon',
     href: "/",
     __source: {
       fileName: _jsxFileName,
@@ -10695,7 +10696,7 @@ var ThongDiep = function ThongDiep() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fthongdiep&absolutePagePath=D%3A%5Ccode%5Cdscn-next%5Cpages%5Cthongdiep.js ***!
   \************************************************************************************************************************/
@@ -10718,5 +10719,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
+},[[5,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=thongdiep.js.map

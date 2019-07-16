@@ -3,7 +3,7 @@ import Link from "next/link";
 const Header = () => (
   <div className={"nav-bar"}>
     <div>
-      <a href="/">DSCN</a>
+      <a className={'page-icon'} href="/">DSCN</a>
     </div>
     <nav>
       <Link  href="/thongdiep">

@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap&subset=vietnamese);
+@import url(https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap);
 *,
 *::before,
 *::after {
@@ -400,6 +401,13 @@ mark,
       padding: 5px; }
       .nav-bar nav a:hover {
         text-decoration: none; }
+
+.page-icon {
+  color: white;
+  font-family: 'Bungee Shade', cursive; }
+  .page-icon:hover {
+    text-decoration: none;
+    color: white; }
 
 .container {
   padding-right: 10px;
