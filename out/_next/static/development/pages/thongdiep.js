@@ -59,7 +59,7 @@ var Header = function Header() {
       lineNumber: 10
     },
     __self: this
-  }, "Thong Diep")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "Th\xF4ng \u0110i\u1EC7p")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/chiase",
     __source: {
       fileName: _jsxFileName,
@@ -73,7 +73,7 @@ var Header = function Header() {
       lineNumber: 13
     },
     __self: this
-  }, "Chia Se"))));
+  }, "Chia S\u1EBB"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
