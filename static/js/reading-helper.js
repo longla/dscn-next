@@ -12,7 +12,7 @@ function toggleReadingPanel(panelElement) {
 function readingBtnClickHandle() {
     // handle click event
     const btn = document.getElementById('reading-helper-action');
-    const readingPanel = document.querySelector('.reading-action-menu');
+    const readingPanel = document.querySelector('.reading-action-wrapper');
     btn.addEventListener('click', () => {
         toggleReadingPanel(readingPanel);
     });

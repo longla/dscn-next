@@ -10,34 +10,60 @@
   background-color: #667eea;
   @include box-shadow();
   z-index: 2;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  @include text-white();
 }
-.reading-action-menu {
-  overflow-y: auto;
-  width: 400px;
-  height: 80vh;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  z-index: 1;
-  border-radius: 30px;
-  @include box-shadow();
-  &.hide {
-    visibility: hidden;
-  }
-  ul {
-    list-style: none;
-    @include px(4);
-    li {
-      @include py(3);
-      a {
-        text-decoration: none;
-        cursor: pointer;
-        color: white;
-        &:visited {
-          color: white;
+.reading-action-wrapper{
+    #reading-helper-action{
+        .icon-hide{
+            display: block;
+        }
+        .icon-show{
+            display: none;
+        }
+    }
+
+    .reading-action-menu {
+        overflow-y: auto;
+        width: 400px;
+        height: 80vh;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        z-index: 1;
+        border-radius: 30px;
+        @include box-shadow();
+        ul {
+          list-style: none;
+          @include px(4);
+          li {
+            @include py(3);
+            a {
+              text-decoration: none;
+              cursor: pointer;
+              color: white;
+              &:visited {
+                color: white;
+              }
+            }
+          }
         }
       }
+    &.hide{
+        .reading-action-menu{
+            visibility: hidden;
+        }
+        #reading-helper-action{
+            .icon-hide{
+                display: none;
+            }
+            .icon-show{
+                display: block;
+            }
+        }
     }
-  }
 }
+
