@@ -471,7 +471,7 @@ mark,
 .reading-action-wrapper .reading-action-menu {
   overflow-y: auto;
   width: 400px;
-  height: 90vh;
+  height: calc(100vh - 90px);
   position: fixed;
   bottom: 20px;
   right: 20px;
