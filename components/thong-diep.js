@@ -19,7 +19,7 @@ const ThongDiepContent = () => (
         “Con đường dưỡng sinh” )
       </em>
     </p>
-    <h2>DƯỠNG SINH VỚI BẢN CHẤT SỰ SỐNG</h2>
+    <h2 id={'phan1.1'}>DƯỠNG SINH VỚI BẢN CHẤT SỰ SỐNG</h2>
 
     <h3>Dưỡng sinh:</h3>
 
@@ -152,7 +152,7 @@ const ThongDiepContent = () => (
       mỗi con người; đồng thời cũng chính là nền tảng vững chắc cho một xã hội
       tốt đẹp lý tưởng mà con người hằng mơ ước.
     </p>
-    <h2>
+    <h2 id={'phan1.2'}>
       <strong>CỘI NGUỒN VÀ NĂNG LƯỢNG TỔNG THỂ</strong>
     </h2>
 

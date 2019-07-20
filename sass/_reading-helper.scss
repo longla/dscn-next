@@ -28,7 +28,7 @@
     .reading-action-menu {
         overflow-y: auto;
         width: 400px;
-        height: 80vh;
+        height: 90vh;
         position: fixed;
         bottom: 20px;
         right: 20px;
@@ -36,11 +36,18 @@
         z-index: 1;
         border-radius: 30px;
         @include box-shadow();
-        ul {
+        & > ol{
           list-style: none;
           @include px(4);
+          @include py(4);
           li {
             @include py(3);
+            ol{
+              @include py(1);
+              li{
+                @include py(1);
+              }
+            }
             a {
               text-decoration: none;
               cursor: pointer;

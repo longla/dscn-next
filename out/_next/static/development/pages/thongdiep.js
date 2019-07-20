@@ -139,7 +139,7 @@ var _jsxFileName = "D:\\code\\dscn-next\\components\\read-action.js";
 
 var ReadingHelper = function ReadingHelper() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: 'reading-action-wrapper hide',
+    className: "reading-action-wrapper hide",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
@@ -186,7 +186,7 @@ var ReadingHelper = function ReadingHelper() {
       lineNumber: 12
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -205,43 +205,75 @@ var ReadingHelper = function ReadingHelper() {
       lineNumber: 15
     },
     __self: this
-  }, "PH\u1EA6N 1: L\xDD THUY\u1EBET")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "PH\u1EA6N 1: L\xDD THUY\u1EBET"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#phan2",
+    href: "#phan1.1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }, "PH\u1EA6N 2: TH\u1EF0C NGHI\u1EC6M")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "D\u01B0\u1EE1ng sinh v\u1EDBi b\u1EA3n ch\u1EA5t s\u1EF1 s\u1ED1ng")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#phan3",
+    href: "#phan1.2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
+  }, "C\u1ED9i Ngu\u1ED3n v\xE0 n\u0103ng l\u01B0\u1EE3ng t\u1ED5ng th\u1EC3")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#phan2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "PH\u1EA6N 2: TH\u1EF0C NGHI\u1EC6M")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#phan3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
   }, "PH\u1EA6N 3: K\u1EBET LU\u1EACN")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#phan4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 32
     },
     __self: this
   }, "PH\u1EA6N 4: B\u1ED4 SUNG")))));
@@ -326,6 +358,7 @@ var ThongDiepContent = function ThongDiepContent() {
     },
     __self: this
   }, "(Ng\u01B0\u1EDDi t\u1EADp d\u01B0\u1EE1ng sinh c\u1EA7n \u0111\u1ECDc k\u1EF9 ph\u1EA7n l\xFD thuy\u1EBFt n\xE0y tr\u01B0\u1EDBc khi ti\u1EBFn h\xE0nh th\u1EF1c nghi\u1EC7m, v\xEC \u0111\xE2y l\xE0 ch\xECa kh\xF3a m\u1EDF ra t\u1EA5t c\u1EA3 c\xE1c v\u1EA5n \u0111\u1EC1 li\xEAn quan \u0111\u1EBFn \u201CCon \u0111\u01B0\u1EDDng d\u01B0\u1EE1ng sinh\u201D )")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: 'phan1.1',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
@@ -506,6 +539,7 @@ var ThongDiepContent = function ThongDiepContent() {
     },
     __self: this
   }, "T\xF3m l\u1EA1i, h\u1EC5 c\xF3 S\u1EF1 s\u1ED1ng, \u1EAFt c\u1EA7n ph\u1EA3i c\xF3 d\u01B0\u1EE1ng sinh (Ng\u01B0\u1EDDi s\u1ED1ng th\xEC ph\u1EA3i bi\u1EBFt D\u01B0\u1EE1ng sinh v\xE0 c\u1EA7n c\xF3 tr\xE1ch nhi\u1EC7m v\u1EDBi \u0111\u1EA1o D\u01B0\u1EE1ng sinh); m\u1ED9t \u0111i\u1EC1u h\u1EBFt s\u1EE9c t\u1EF1 nhi\xEAn, t\u1EA5t y\u1EBFu, h\u1EE3p quy lu\u1EADt. Cho n\xEAn, D\u01B0\u1EE1ng sinh qu\u1EA3 l\xE0 \u0110\u1EA1o s\u1ED1ng kh\xF4ng th\u1EC3 thi\u1EBFu \u0111\u01B0\u1EE3c. \u0110\xF3 l\xE0 s\u1EE9 m\u1EC7nh, l\xE0 ngu\u1ED3n s\u1ED1ng, ngu\u1ED3n h\u1EA1nh ph\xFAc c\u1EE7a m\u1ED7i con ng\u01B0\u1EDDi; \u0111\u1ED3ng th\u1EDDi c\u0169ng ch\xEDnh l\xE0 n\u1EC1n t\u1EA3ng v\u1EEFng ch\u1EAFc cho m\u1ED9t x\xE3 h\u1ED9i t\u1ED1t \u0111\u1EB9p l\xFD t\u01B0\u1EDFng m\xE0 con ng\u01B0\u1EDDi h\u1EB1ng m\u01A1 \u01B0\u1EDBc."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: 'phan1.2',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 155
@@ -4481,7 +4515,7 @@ var ThongDiep = function ThongDiep() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fthongdiep&absolutePagePath=D%3A%5Ccode%5Cdscn-next%5Cpages%5Cthongdiep.js ***!
   \************************************************************************************************************************/
@@ -4504,5 +4538,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
+},[[5,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=thongdiep.js.map

@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 const ReadingHelper = () => (
-  <div className={'reading-action-wrapper hide'}>
+  <div className={"reading-action-wrapper hide"}>
     <Head>
       <script src={"static/js/reading-helper.js"} />
     </Head>
@@ -10,9 +10,17 @@ const ReadingHelper = () => (
       <i className={"fas fa-times icon-hide"} />
     </div>
     <div className={"reading-action-menu"}>
-      <ul>
+      <ol>
         <li>
           <a href={"#phan1"}>PHẦN 1: LÝ THUYẾT</a>
+          <ol>
+            <li>
+              <a href={"#phan1.1"}>Dưỡng sinh với bản chất sự sống</a>
+            </li>
+            <li>
+              <a href={"#phan1.2"}>Cội Nguồn và năng lượng tổng thể</a>
+            </li>
+          </ol>
         </li>
         <li>
           <a href={"#phan2"}>PHẦN 2: THỰC NGHIỆM</a>
@@ -23,7 +31,7 @@ const ReadingHelper = () => (
         <li>
           <a href={"#phan4"}>PHẦN 4: BỔ SUNG</a>
         </li>
-      </ul>
+      </ol>
     </div>
   </div>
 );
