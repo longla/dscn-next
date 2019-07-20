@@ -3,8 +3,17 @@ $nav_height:50px !default;
 
 //Spacers
 $spacer-base:5px;
-$spacer-s: $spacer-base*1;
+$spacer-s: $spacer-base * 1;
 $spacer-m: $spacer-base*2;
 $spacer-l: $spacer-base*3;
 $spacer-xl: $spacer-base*5;
 $spacer-xxl: $spacer-base*8;
+
+$spacers: (
+    0:0,
+    1: ($spacer-base * 1),
+    2: ($spacer-base * 2),
+    3: ($spacer-base * 3),
+    4: ($spacer-base * 5),
+    5: ($spacer-base * 8)
+);

@@ -1,0 +1,33 @@
+@import "./variables";
+
+@mixin text-white{
+    color: white;
+}
+
+//link
+@mixin btn-link{
+  text-decoration: none;
+  cursor: pointer;
+  @include text-white();
+  &:visited{
+    @include text-white();
+  }
+}
+
+//spaces
+@function spacers($key: "s") {
+    @return map-get($spacers, $key);
+}
+@mixin px($size) {
+    padding-left: spacers($size);
+    padding-right: spacers($size);
+}
+@mixin py($size) {
+    padding-top: spacers($size);
+    padding-bottom: spacers($size);
+}
+
+//shadown
+@mixin box-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
