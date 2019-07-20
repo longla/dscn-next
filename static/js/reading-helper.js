@@ -1,10 +1,11 @@
 
 function toggleReadingPanel(panelElement) {
-    if (panelElement.classList.contains('show')) {
-        panelElement.classList.remove('show');
+    const hideClassName = "hide";
+    if (panelElement.classList.contains(hideClassName)) {
+        panelElement.classList.remove(hideClassName);
     }
     else {
-        panelElement.classList.add('show');
+        panelElement.classList.add(hideClassName);
     }
 }
 

@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 const Header = () => (
   <div className={"nav-bar"}>
@@ -6,12 +5,8 @@ const Header = () => (
       <a className={'page-icon'} href="/">DSCN</a>
     </div>
     <nav>
-      <Link  href="/thongdiep">
-        <a className={"nav-item"}>Thông Điệp</a>
-      </Link>
-      <Link  href="/chiase">
-        <a className={"nav-item"}>Chia Sẻ</a>
-      </Link>
+      <a href="/thongdiep" className={"nav-item"}>Thông Điệp</a>
+      <a  href="/chiase" className={"nav-item"}>Chia Sẻ</a>
     </nav>
   </div>
 );

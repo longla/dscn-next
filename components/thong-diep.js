@@ -10,7 +10,7 @@ const ThongDiepContent = () => (
       <p>THÔNG ĐIỆP CỦA SỰ SỐNG</p>
     </div>
 
-    <h1>PHẦN 1: LÝ THUYẾT</h1>
+    <h1 id={'phan1'}>PHẦN 1: LÝ THUYẾT</h1>
 
     <p>
       <em>
@@ -206,7 +206,7 @@ const ThongDiepContent = () => (
       người, góp phần tạo nên đời sống xã hội tốt đẹp, kiến tạo một thế giới
       thái bình, an vui, hạnh phúc.
     </p>
-    <h1>PHẦN 2: THỰC NGHIỆM</h1>
+    <h1 id={'phan2'}>PHẦN 2: THỰC NGHIỆM</h1>
 
     <h3>CÁCH TIẾN HÀNH:</h3>
 
@@ -327,7 +327,7 @@ const ThongDiepContent = () => (
       trình tự điều chỉnh của cơ thể dưới tác động của năng lượng Cội nguồn nhằm
       đưa cơ thể về trạng thái lành mạnh.
     </p>
-    <h1>PHẦN 3: KẾT LUẬN</h1>
+    <h1 id={'phan3'}>PHẦN 3: KẾT LUẬN</h1>
 
     <p>
       Sự sống là một tổng thể (Tổng Thể) thống nhất không thể chia cắt. Mỗi
@@ -337,7 +337,7 @@ const ThongDiepContent = () => (
       đơn giản, thông minh, sáng suốt nhất mà mỗi người có thể làm để có một đời
       sống trọn vẹn, sâu sắc, ý nghĩa và hạnh phúc.
     </p>
-    <h1>PHẦN 4: BỔ SUNG</h1>
+    <h1 id={'phan4'}>PHẦN 4: BỔ SUNG</h1>
 
     <h2>Chú thích về năng lượng Tổng thể</h2>
 
