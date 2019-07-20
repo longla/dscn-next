@@ -1,5 +1,8 @@
+import ReadingHelper from "./read-action";
+
 const ThongDiepContent = () => (
   <section id="thong-diep">
+  <ReadingHelper></ReadingHelper>
     <div className={"page-title"}>
       <h1>TÀI LIỆU THỰC HÀNH DƯỠNG SINH</h1>
 
