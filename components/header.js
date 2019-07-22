@@ -7,6 +7,7 @@ const Header = () => (
     <nav>
       <a href="/thongdiep" className={"nav-item"}>Thông Điệp</a>
       <a  href="/chiase" className={"nav-item"}>Chia Sẻ</a>
+      <a  href="/blog" className={"nav-item"}>Blog</a>
     </nav>
   </div>
 );
