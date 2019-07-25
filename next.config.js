@@ -7,5 +7,15 @@ module.exports = withSass({
       use: "raw-loader"
     });
     return config;
+  },
+  exportPathMap:function(){
+      return {
+          '/post/blog-1':{
+              page:'post',
+              query:{
+                  id:'blog-1'
+              }
+          }
+      }
   }
 });

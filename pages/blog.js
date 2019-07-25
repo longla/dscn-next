@@ -5,7 +5,6 @@ import Link from 'next/link';
 export default class extends React.Component{
   static async getInitialProps() {
     // Get posts from folder
-    console.log('yes');
     const posts = (ctx => {
         const keys = ctx.keys();
         const values = keys.map(ctx);
