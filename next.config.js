@@ -10,6 +10,21 @@ module.exports = withSass({
   },
   exportPathMap:function(){
       return {
+          'blog':{
+                page:'blog'
+          },
+           'landing':{
+                page:'landing'
+          },
+           'chiase':{
+                page:'chiase'
+          },
+           'thongdiep':{
+                page:'thongdiep'
+          },
+          '404':{
+                page:'404'
+          },
           '/post/blog-1':{
               page:'post',
               query:{
