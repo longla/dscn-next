@@ -10,10 +10,12 @@
     }
 }
 
-.container{
+.app-main{
+    &__container{
     padding-right: $spacer-m;
     padding-left: $spacer-m;
     max-width: 768px;
     margin-left: auto;
     margin-right:auto;
+    }
 }
