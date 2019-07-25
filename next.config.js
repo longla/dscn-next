@@ -31,7 +31,7 @@ module.exports = withSass({
     return config;
   },
   exportPathMap:function(){
-      const blogNames = postService.getBlogPostNames();
+      const blogNames = postService.getBlogPostRoutes();
       return {
           ...APP_ROUTES,
           ...blogNames

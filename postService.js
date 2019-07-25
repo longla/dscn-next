@@ -1,29 +1,25 @@
 const dir = require('node-dir');
 const replaceString = require('replace-string');
 
-function getPostUrlId(fileName){
+
+const BLOG_DIR = "_posts/blog";
+
+
+function getBlogPostUrlId(fileName){
     let str = fileName.replace(/.md/gi,'');
     return str.replace(/_posts\/blog\//gi,'');
 }
-exports.getBlogPostNames = function() {
-    var files = dir.files("_posts/blog", {sync:true});
+exports.getBlogPostRoutes = function() {
+    var files = dir.files(BLOG_DIR, {sync:true});
     var returnObj ={};
     files.forEach((fileName)=>{
-        const id = getPostUrlId(fileName);
+        const id = getBlogPostUrlId(fileName);
         returnObj[`/post/${id}`] = {
-            page:'post',
+            page:'blog-post',
             query:{
                 id:id
             }
         };
     })
     return returnObj;
-    // return {
-    //     '/post/blog-1':{
-    //           page:'post',
-    //           query:{
-    //               id:'blog-1'
-    //           }
-    //       }
-    // }
 }

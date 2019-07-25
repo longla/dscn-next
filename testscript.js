@@ -1,3 +1,3 @@
 const postService = require("./postService");
 
-console.log(postService.getBlogPostNames());
+console.log(postService.getBlogPostRoutes());
