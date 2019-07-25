@@ -1,40 +1,39 @@
 {
-  "name": "dscn-next",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "next build",
-    "dev": "next",
-    "deploy": "next build && next export",
-    "export": "next export"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/longla/dscn-next.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/longla/dscn-next/issues"
-  },
-  "homepage": "https://github.com/longla/dscn-next#readme",
-  "dependencies": {
-
-  },
-  "devDependencies": {
-    "@zeit/next-sass": "^1.0.1",
-    "node-sass": "^4.12.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-markdown": "^4.1.0",
-    "gray-matter": "^4.0.2",
-    "node-dir": "^0.1.17",
-    "bootstrap": "^4.3.1",
-    "next": "^9.0.2",
-    "now": "^15.8.5",
-    "raw-loader": "^3.1.0",
-    "replace-string": "^3.0.0"
-  }
+    "name": "dscn-next",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "next build",
+        "dev": "next",
+        "deploy": "next build && next export",
+        "export": "next export"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/longla/dscn-next.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/longla/dscn-next/issues"
+    },
+    "homepage": "https://github.com/longla/dscn-next#readme",
+    "dependencies": {
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-markdown": "^4.1.0",
+        "gray-matter": "^4.0.2"
+    },
+    "devDependencies": {
+        "@zeit/next-sass": "^1.0.1",
+        "node-sass": "^4.12.0",
+        "node-dir": "^0.1.17",
+        "bootstrap": "^4.3.1",
+        "next": "^9.0.2",
+        "now": "^15.8.5",
+        "raw-loader": "^3.1.0",
+        "replace-string": "^3.0.0"
+    }
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import AppNavPanel  from './app-nav-panel';
 export default class extends React.Component {
     constructor(props) {
         super(props);
@@ -14,12 +15,9 @@ export default class extends React.Component {
     }
     render() {
         const isNavShown = this.state.isNavShown;
-        const appNavPanel = (<nav>
-                        <a href="/thongdiep" className={"nav-item"}>Thông Điệp</a>
-                        <a href="/chiase" className={"nav-item"}>Chia Sẻ</a>
-                        <a href="/blog" className={"nav-item"}>Blog</a>
-                        <a href="/annoucement" className={"nav-item"}>Thông Báo</a>
-                    </nav>);
+        const appNavPanel = (
+            <AppNavPanel show={this.state.isNavShown} onClosed={this.navToggleClickHandler}> </AppNavPanel>
+        );
         return (
 
             <div className={"app-nav"}>
@@ -33,7 +31,7 @@ export default class extends React.Component {
 
                 </div>
                 {
-                    isNavShown ? appNavPanel : null
+                    appNavPanel
                 }
 
             </div>

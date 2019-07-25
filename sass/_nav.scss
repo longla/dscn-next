@@ -2,37 +2,49 @@
 @import "./mixins";
 
 .app-nav{
-
-    nav {
-        top: 0;
-    position: fixed;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-        width: 100vw;
-        height: 100vh;
-        background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        .nav-item{
-            @include btn-link();
-        }
+    .app-nav-panel{
+                position:fixed;
+                top: 0;
+                width: 100vw;
+                height: 100vh;
+                background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                display: grid;
+                justify-content: center;
+                &__close{
+                    justify-self: end;
+                    @include btn-link();
+                    position:fixed;
+                    top:0;
+                    right:0;
+                    padding:10px;
+                }
+                nav {
+                        display: grid;
+                        justify-content: center;
+                        align-content: center;
+                        text-align: center;
+                        .nav-item{
+                            @include btn-link();
+                    }
+                }
     }
+
 
     .nav-bar {
         .nav-toggle{
             justify-self: end;
             @include btn-link();
         }
-  position: absolute;
-  top:0;
-  width: 100%;
-  padding-left: $spacer-m;
-  padding-right: $spacer-m;
-  height: $nav_height;
-  display: grid;
-  align-content: center;
-  grid-template-columns: 200px auto;
-  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        position: absolute;
+        top:0;
+        width: 100%;
+        padding-left: $spacer-m;
+        padding-right: $spacer-m;
+        height: $nav_height;
+        display: grid;
+        align-content: center;
+        grid-template-columns: 200px auto;
+        background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 }
