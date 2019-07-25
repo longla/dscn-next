@@ -25,6 +25,9 @@ module.exports = withSass({
           '404':{
                 page:'404'
           },
+          'index':{
+                page:'index'
+          },
           '/post/blog-1':{
               page:'post',
               query:{
