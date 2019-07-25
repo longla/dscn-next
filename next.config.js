@@ -1,16 +1,7 @@
 const withSass = require("@zeit/next-sass");
-module.exports = withSass({
-  /* config options here */
-  webpack: config => {
-    config.module.rules.push({
-      test: /\.md$/,
-      use: "raw-loader"
-    });
-    return config;
-  },
-  exportPathMap:function(){
-      return {
-          '/blog':{
+const postService = require("./postService");
+const APP_ROUTES = {
+    '/blog':{
                 page:'/blog'
           },
            'landing':{
@@ -27,13 +18,23 @@ module.exports = withSass({
           },
           'index':{
                 page:'index'
-          },
-          '/post/blog-1':{
-              page:'post',
-              query:{
-                  id:'blog-1'
-              }
           }
+}
+
+module.exports = withSass({
+  /* config options here */
+  webpack: config => {
+    config.module.rules.push({
+      test: /\.md$/,
+      use: "raw-loader"
+    });
+    return config;
+  },
+  exportPathMap:function(){
+      const blogNames = postService.getBlogPostNames();
+      return {
+          ...APP_ROUTES,
+          ...blogNames
       }
   }
 });
