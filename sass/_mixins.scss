@@ -9,6 +9,10 @@
   text-decoration: none;
   cursor: pointer;
   @include text-white();
+  &:hover{
+      text-decoration: none;
+      @include text-white();
+  }
   &:visited{
     @include text-white();
   }

@@ -20,14 +20,15 @@
   },
   "homepage": "https://github.com/longla/dscn-next#readme",
   "dependencies": {
+
+  },
+  "devDependencies": {
     "@zeit/next-sass": "^1.0.1",
-    "gray-matter": "^4.0.2",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-markdown": "^4.1.0"
-  },
-  "devDependencies": {
+    "react-markdown": "^4.1.0",
+    "gray-matter": "^4.0.2",
     "node-dir": "^0.1.17",
     "bootstrap": "^4.3.1",
     "next": "^9.0.2",
