@@ -2,15 +2,13 @@ import React from 'react'
 import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
 import Layout from '../components/layout';
-export default class extends React.Component {
-    static async getInitialProps({ query }) {
-        const post = await import(`../_posts/blog/${query.id}.md`);
-        const document = matter(post.default);
-        return {
-            ...document
-        };
+import { useRouter } from 'next/router';
+class BlogPosts extends React.Component {
+    constructor(props){
+        super(props);
     }
     render() {
+
         return (
             <Layout>
                 <>
@@ -22,3 +20,14 @@ export default class extends React.Component {
         )
     }
 }
+
+BlogPosts.getInitialProps = async ({ query })=>{
+    console.log(`${query.id}`);
+    const post = await import(`../_posts/blog/${query.id}.md`);
+    const document = matter(post.default);
+    return {
+        ...document
+    };
+}
+
+export default BlogPosts;
