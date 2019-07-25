@@ -10,8 +10,8 @@ module.exports = withSass({
   },
   exportPathMap:function(){
       return {
-          'blog':{
-                page:'blog'
+          '/blog':{
+                page:'/blog'
           },
            'landing':{
                 page:'landing'
