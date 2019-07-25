@@ -14,7 +14,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - label: "Annoucement"
     name: "annoucement"
-    folder: "_post/annoucement"
+    folder: "_posts/annoucement"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
