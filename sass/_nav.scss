@@ -25,6 +25,7 @@
                         text-align: center;
                         .nav-item{
                             @include btn-link();
+                            @include py(3);
                     }
                 }
     }

@@ -1,5 +1,6 @@
 
 @import "./variables";
+@import "./mixins";
 
 .page-icon{
     color: white;
@@ -12,10 +13,11 @@
 
 .app-main{
     &__container{
-    padding-right: $spacer-m;
-    padding-left: $spacer-m;
-    max-width: 768px;
-    margin-left: auto;
-    margin-right:auto;
+        @include px(3);
+        @include py(6);
+        max-width: 768px;
+        margin-left: auto;
+        margin-right:auto;
+
     }
 }
