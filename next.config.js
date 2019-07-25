@@ -31,10 +31,12 @@ module.exports = withSass({
     return config;
   },
   exportPathMap:function(){
-      const blogNames = postService.getBlogPostRoutes();
+      const blogRoutes = postService.getBlogPostRoutes();
+      const annoucementRoutes = postService.getAnnoucementPostRoutes();
       return {
           ...APP_ROUTES,
-          ...blogNames
+          ...blogRoutes,
+          ...annoucementRoutes
       }
   }
 });

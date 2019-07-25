@@ -8,6 +8,7 @@ const Header = () => (
       <a href="/thongdiep" className={"nav-item"}>Thông Điệp</a>
       <a  href="/chiase" className={"nav-item"}>Chia Sẻ</a>
       <a  href="/blog" className={"nav-item"}>Blog</a>
+      <a  href="/annoucement" className={"nav-item"}>Thong Bao</a>
     </nav>
   </div>
 );
