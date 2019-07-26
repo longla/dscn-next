@@ -21,18 +21,19 @@
     },
     "homepage": "https://github.com/longla/dscn-next#readme",
     "dependencies": {
+        "gray-matter": "^4.0.2",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
-        "react-markdown": "^4.1.0",
-        "gray-matter": "^4.0.2"
+        "react-markdown": "^4.1.0"
     },
     "devDependencies": {
         "@zeit/next-sass": "^1.0.1",
-        "node-sass": "^4.12.0",
-        "node-dir": "^0.1.17",
         "bootstrap": "^4.3.1",
         "next": "^9.0.2",
+        "node-dir": "^0.1.17",
+        "node-sass": "^4.12.0",
         "now": "^15.8.5",
+        "prettier": "^1.18.2",
         "raw-loader": "^3.1.0",
         "replace-string": "^3.0.0"
     }
