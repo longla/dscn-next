@@ -14,7 +14,6 @@ class BlogPosts extends React.Component {
                 <div className={'post'}>
                 <div className={'post__heading'}>
                     <h1>{this.props.data.title}</h1>
-                    <i>{this.props.data.date}</i>
                 </div>
                 <div className={'post__body'}>
 
