@@ -11,11 +11,16 @@ class BlogPosts extends React.Component {
 
         return (
             <Layout>
-                <>
+                <div className={'post'}>
+                <div className={'post__heading'}>
                     <h1>{this.props.data.title}</h1>
-                    <i>{`Date: ${this.props.data.date}`}</i>
+                    <i>{this.props.data.date}</i>
+                </div>
+                <div className={'post__body'}>
+
                     <ReactMarkdown source={this.props.content} />
-                </>
+                </div>
+                </div>
             </Layout>
         )
     }

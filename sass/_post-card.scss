@@ -1,0 +1,27 @@
+
+@import "./mixins";
+
+.post-card-container{
+    display: grid;
+    grid-gap:20px;
+    justify-content: center;
+}
+.post-card {
+    @include box-shadow();
+    @include border-radius();
+    max-width: 500px;
+    display: grid;
+    &__img {
+        width: 100%;
+        img{
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+    }
+
+    &__body {
+        @include px(3);
+        @include py(4);
+    }
+}
