@@ -31,7 +31,7 @@ export default class extends React.Component {
     render() {
 
         return (
-            <Layout>
+            <Layout pageTitle={'Blog'}>
                 <div className={'post-card-container'}>
                 {this.props.posts.map(({ document: { data }, slug }) => (
                     <div onClick={() => { Router.push(

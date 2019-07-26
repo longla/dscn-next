@@ -16,6 +16,7 @@ export default class extends React.Component {
                 const value = values[index];
                 // Parse document
                 const document = matter(value.default);
+                console.log(document);
                 return {
                     document,
                     slug,
@@ -29,15 +30,18 @@ export default class extends React.Component {
     }
     render() {
         return (
-            <Layout>
-                <>
-                    <h1>Thong Bao!</h1>
+            <Layout pageTitle={'Thông Báo'}>
+                <div className={'post-card-container'}>
                     {this.props.posts.map(({ document: { data }, slug }) => (
-                        <Link href={{ pathname: '/annoucement-post', query: { id: slug } }} as={`/annoucement/${slug}`} key={slug}>
-                            <h2>{data.title}</h2>
-                        </Link>
+                        <div className={'post-card'}>
+                            <div className={'post-card__body'}>
+                                <Link href={{ pathname: '/annoucement-post', query: { id: slug } }} as={`/annoucement/${slug}`} key={slug}>
+                                    <h2>{data.title}</h2>
+                                </Link>
+                            </div>
+                        </div>
                     ))}
-                </>
+                </div>
             </Layout>
         )
     }

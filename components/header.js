@@ -18,12 +18,19 @@ export default class extends React.Component {
         const appNavPanel = (
             <AppNavPanel show={this.state.isNavShown} onClosed={this.navToggleClickHandler}> </AppNavPanel>
         );
+        const pageTitleSection = (title) => (
+            <>
+                <span className={'devider'}> | </span>
+                <span className={'page-title'}>{title}</span>
+            </>
+        );
         return (
 
             <div className={"app-nav"}>
                 <div className={"nav-bar"}>
                     <div>
                         <a className={'page-icon'} href="/">DSCN</a>
+                        {this.props.pageTitle? pageTitleSection(this.props.pageTitle): null}
                     </div>
                     <a onClick={this.navToggleClickHandler} className={'nav-toggle'}>
                         <i className={"fas fa-bars icon-show"} />

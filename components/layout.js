@@ -7,7 +7,7 @@ const Layout = props => (
         <head>
             <script src={'https://kit.fontawesome.com/85b1403340.js'}></script>
         </head>
-        <Header />
+        <Header pageTitle={props.pageTitle}/>
         <div className={'app-main__container'}>
             {props.children}
         </div>

@@ -12,7 +12,7 @@ export default class extends React.Component {
     }
     render() {
         return (
-            <Layout>
+            <Layout pageTitle={'Thông Báo'}>
                 <>
                     <h1>{this.props.data.title}</h1>
                     <i>{`Date: ${this.props.data.date}`}</i>

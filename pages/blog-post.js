@@ -10,7 +10,7 @@ class BlogPosts extends React.Component {
     render() {
 
         return (
-            <Layout>
+            <Layout pageTitle={'Blog'}>
                 <div className={'post'}>
                 <div className={'post__heading'}>
                     <h1>{this.props.data.title}</h1>
