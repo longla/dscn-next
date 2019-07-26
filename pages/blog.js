@@ -33,15 +33,26 @@ export default class extends React.Component {
         return (
             <Layout pageTitle={'Blog'}>
                 <div className={'post-card-container'}>
-                {this.props.posts.map(({ document: { data }, slug }) => (
+                {this.props.posts.map(({ document: { content, data }, slug }) => (
                     <div onClick={() => { Router.push(
                     `/blog-post?id=${slug}`,`post/${slug}`
                     )}} className={'post-card'}>
-                        <div className={'post-card__img'}>
-                            <img src={data.thumbnail}></img>
+                        <div className="post-card__header">
+                            <div className={'post-card__thumbnail'}>
+                                <img src={data.thumbnail}></img>
+                            </div>
                         </div>
                         <div className={'post-card__body'}>
-                            {data.title}
+                            <p className={'post-card__title'}>
+                                {data.title}
+                            </p>
+                            <div className={'post-card__description'}>
+                                <span>{content}</span>
+                            </div>
+
+                        </div>
+
+                        <div className="post-card__footer">
                         </div>
                     </div>
                 ))}

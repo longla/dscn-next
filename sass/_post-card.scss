@@ -1,27 +1,47 @@
 
 @import "./mixins";
-
+$img-height: 220px;
+$desc-height: 3rem;
 .post-card-container{
     display: grid;
     grid-gap:20px;
     justify-content: center;
 }
 .post-card {
+    $self: &;
     @include box-shadow();
     @include border-radius();
     max-width: 500px;
     display: grid;
-    &__img {
-        width: 100%;
-        img{
-            width: 100%;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-        }
+    &__header {
+        #{$self}__thumbnail {
+                width: 100%;
+                img{
+                    width: 100%;
+                    height: $img-height;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                    object-fit:cover;
+                }
+            }
     }
 
     &__body {
         @include px(3);
-        @include py(4);
+        @include py(3);
+        #{$self}__title{
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+        #{$self}__description{
+            font-size: 1rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-height: $desc-height;
+        }
+    }
+    &__footer{
+        @include px(3);
+        @include py(3);
     }
 }
