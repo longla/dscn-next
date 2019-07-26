@@ -14,7 +14,7 @@ exports.getBlogPostRoutes = function() {
     files.forEach((fileName)=>{
         const id = getBlogPostUrlId(fileName);
         returnObj[`/post/${id}`] = {
-            page:'blog-post',
+            page:'/blog-post',
             query:{
                 id:id
             }
@@ -34,7 +34,7 @@ exports.getAnnoucementPostRoutes = function() {
     files.forEach((fileName)=>{
         const id = getAnnoucementPostUrlId(fileName);
         returnObj[`/annoucement/${id}`] = {
-            page:'annoucement-post',
+            page:'/annoucement-post',
             query:{
                 id:id
             }
