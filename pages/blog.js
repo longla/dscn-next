@@ -34,10 +34,9 @@ export default class extends React.Component {
             <Layout>
                 <div className={'post-container'}>
                 {this.props.posts.map(({ document: { data }, slug }) => (
-                    <div onClick={() => { Router.push({
-                      pathname: '/blog-post', query: { id: slug }
-
-                    }) }} className={'post'}>
+                    <div onClick={() => { Router.push(
+                    `/blog-post?id=${slug}`,`post/${slug}`
+                    )}} className={'post'}>
                         <div className={'post__img'}>
                             <img src={data.thumbnail}></img>
                         </div>
