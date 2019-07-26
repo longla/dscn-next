@@ -3,6 +3,7 @@ import React from 'react'
 import matter from 'gray-matter';
 import Link from 'next/link';
 import Layout from '../components/layout';
+import Router from 'next/router';
 
 export default class extends React.Component {
     static async getInitialProps() {
@@ -28,16 +29,25 @@ export default class extends React.Component {
         };
     }
     render() {
+
         return (
             <Layout>
-                <>
-                    <h1>Posts</h1>
-                    {this.props.posts.map(({ document: { data }, slug }) => (
-                        <Link href={{ pathname: '/blog-post', query: { id: slug } }} as={`/post/${slug}`} key={slug}>
-                            <h2>{data.title}</h2>
-                        </Link>
-                    ))}
-                </>
+                <div className={'post-container'}>
+                {this.props.posts.map(({ document: { data }, slug }) => (
+                    <div onClick={() => { Router.push({
+                      pathname: '/blog-post', query: { id: slug }
+
+                    }) }} className={'post'}>
+                        <div className={'post__img'}>
+                            <img src={data.thumbnail}></img>
+                        </div>
+                        <div className={'post__body'}>
+                            {data.title}
+                        </div>
+                    </div>
+                ))}
+                </div>
+
             </Layout>
         )
     }

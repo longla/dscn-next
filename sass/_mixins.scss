@@ -30,7 +30,10 @@
     padding-top: spacers($size);
     padding-bottom: spacers($size);
 }
-
+//border-radius
+@mixin border-radius($key:10px){
+    border-radius: $key;
+}
 //shadown
 @mixin box-shadow{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
