@@ -20,8 +20,10 @@ export default class extends React.Component {
         );
         const pageTitleSection = (title) => (
             <>
+
+                <a className={'nav-page-title'}>
                 <span className={'devider'}> | </span>
-                <span className={'page-title'}>{title}</span>
+                {title}</a>
             </>
         );
         return (

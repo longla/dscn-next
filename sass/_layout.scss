@@ -2,15 +2,6 @@
 @import "./variables";
 @import "./mixins";
 
-.page-icon{
-    color: white;
-    font-family: 'Bungee Shade', cursive;
-    &:hover{
-        text-decoration: none;
-        color: white;
-    }
-}
-
 .app-main{
     &__container{
         @include px(3);

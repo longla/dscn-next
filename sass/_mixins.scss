@@ -1,20 +1,17 @@
 @import "./variables";
 
-@mixin text-white{
-    color: white;
-}
 
 //link
 @mixin btn-link{
   text-decoration: none;
   cursor: pointer;
-  @include text-white();
+  @include text-light();
   &:hover{
       text-decoration: none;
-      @include text-white();
+      @include text-light();
   }
   &:visited{
-    @include text-white();
+    @include text-light();
   }
 }
 
@@ -37,4 +34,9 @@
 //shadown
 @mixin box-shadow{
     box-shadow: 0 0 0 1px rgba(255,255,255,.1), 0 2px 4px 0 rgba(14,30,37,.12);
+}
+
+//typo
+@mixin text-light{
+    color:white !important;
 }

@@ -2,6 +2,19 @@
 @import "./mixins";
 
 .app-nav{
+    .page-icon {
+         @include text-light();
+        font-family: 'Bungee Shade', cursive;
+        &:hover{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    .nav-page-title{
+         font-family: 'Pattaya', sans-serif;
+         @include text-light();
+         font-size: 1.2rem;
+    }
     .app-nav-panel{
                 position:fixed;
                 top: 0;
