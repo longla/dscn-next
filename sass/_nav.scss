@@ -58,8 +58,9 @@
         display: grid;
         align-content: center;
         grid-template-columns: 200px auto;
-        &--bg{
-            @include background-image();
+        @include background-image();
+        &--no-bg{
+            background-image: none !important;
         }
 }
 
