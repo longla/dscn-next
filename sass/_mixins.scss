@@ -40,3 +40,8 @@
 @mixin text-light{
     color:white !important;
 }
+
+//bg
+@mixin background-image{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}

@@ -1,7 +1,9 @@
+@import "./mixins";
+
 #landing {
     height: 100vh ;
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color:white;
+    @include background-image();
+    @include text-light();
     display: grid;
     align-content: center;
     justify-content: center;

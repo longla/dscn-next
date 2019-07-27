@@ -28,8 +28,8 @@ export default class extends React.Component {
         );
         return (
 
-            <div className={"app-nav"}>
-                <div className={"nav-bar"}>
+            <div className={'app-nav'}>
+                <div className={this.props.pageTitle?"nav-bar nav-bar--bg":"nav-bar"}>
                     <div>
                         <a className={'page-icon'} href="/">DSCN</a>
                         {this.props.pageTitle? pageTitleSection(this.props.pageTitle): null}

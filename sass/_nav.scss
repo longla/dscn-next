@@ -15,7 +15,7 @@
          @include text-light();
          font-size: 1.2rem;
     }
-    .app-nav-panel{
+    .app-nav-panel {
                 position:fixed;
                 top: 0;
                 width: 100vw;
@@ -58,7 +58,9 @@
         display: grid;
         align-content: center;
         grid-template-columns: 200px auto;
-        background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        &--bg{
+            @include background-image();
+        }
 }
 
 }
